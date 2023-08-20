@@ -9,12 +9,12 @@ const questions = [
     {
         type: 'input',
         message: 'Enter logo color. (hexadecimal numbers are accepted)',
-        name: 'color',
+        name: 'setColor',
     },
     {
         type: 'list',
         message: 'Choose a logo shape.',
-        name: 'shape',
+        name: 'setShape',
         choices: ['Circle',  'Triangle', 'Square']
     }
 ]
